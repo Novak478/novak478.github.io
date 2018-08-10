@@ -23,7 +23,7 @@ Update 1 on a new motorcycle I picked up - 1983 Honda CM450A 'Hondamatic'.
 ## Intro
 
 Hello everybody,
-This is my first post into my 1983 Honda CM450A Hondamatic project. I’m really just going to be having fun with it, and learning as I go. I am going to go for a more true cruiser / chopper image. For reference, I am starting with a completely stock bike and looking to customize it as I go and include the brands I use / where I bought it from in case anyone else is looking for something to use for their cm400/450.
+this is my first post into my 1983 Honda CM450A Hondamatic project. I’m really just going to be having fun with it, and learning as I go. I am going to go for a more true cruiser / chopper image. For reference, I am starting with a completely stock bike and looking to customize it as I go and include the brands I use / where I bought it from in case anyone else is looking for something to use for their cm400/450.
 
 
 ---
@@ -48,7 +48,7 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="https://assets.github.com/images/cm450A_sidephoto.jpeg" alt="Alt Text">
+        <img class="image" src="https://github.com/Novak478/novak478.github.io/blob/master/assets/images/cm450A_sidephoto.jpeg" alt="Alt Text">
         <figcaption class="caption">Side Photo</figcaption>
     </div>
 
@@ -59,7 +59,7 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src=https://assets.github.com/images/fuelfilter.jpeg alt="Alt Text">
+        <img class="image" src="https://github.com/Novak478/novak478.github.io/blob/master/assets/images/cm450A_fuelfilter.jpeg" alt="Alt Text">
         <figcaption class="caption">Fuel Filter Example</figcaption>
     </div>
 
@@ -74,7 +74,7 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
     </div>
 
     <div class="toright">
-        <img class="image" src="https://assets.github.com/images/cm450A_newfronttire.jpeg" alt="Alt Text">
+        <img class="image" src="https://github.com/Novak478/novak478.github.io/blob/master/assets/images/cm450A_newfronttire.jpeg" alt="Alt Text">
         <figcaption class="caption">New Front tire</figcaption>
     </div>
 </div>
@@ -83,7 +83,7 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
 
 ## Cruise after I just bought it
 
-Head to 7:48 to see me pin at 70+ mph!
+Head to 7:45 to see me pin it at 70 mph, otherwise it's just a video of me driving around.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SPVsKM-aLsw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
