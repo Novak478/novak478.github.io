@@ -48,15 +48,20 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
 ---
 
 ## Photos
-
+{% highlight raw %}
 ![Markdowm Image][/assets/images/cm450A_sidephoto.jpg]
 Side Photo before tune up
+{% endhighlight %}
 
+{% highlight raw %}
 ![Markdowm Image][/assets/images/cm450A_fuelfilter.jpg]
 Example of how you add a fuel filter to bike - splice between fuel line between petcock and carburetor.
+{% endhighlight %}
 
+{% highlight raw %}
 ![Markdowm Image][/assets/images/cm450A_newfronttire.jpg]
 Photo of new front tire. Old front tire was showing signs of dry rot from sitting. Did everything myself but seal the bead - I do not recommend doing the "starter fluid and lighter" method, and I do not have an air compressor powerful enough to do it. Any mechanic shop who does tires usually will have no problem sealing the bead for you. Shout out to Monroe Muffler of Painesville Ohio and the manager Bob for taking care of me there. $5 for bead seal and balance.
+{% endhighlight %}
 ---
 
 ## Cruise after I just bought it
