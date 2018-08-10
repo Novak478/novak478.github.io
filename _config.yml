@@ -30,21 +30,21 @@ analytics-google: 'UA-118742481-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: zachary_novak # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname:  # enter this from your disqus account
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 # twitter: mytwitter
 # google: mygoogle
-# instagram: myinstagram
+instagram: 4eyes3nips
 # pinterest: mypinterest
 linkedin: znovak1996
 # youtube: myyoutube
-# spotify: myspotify
+spotify: baklavazn
 github: Novak478
 # lastfm: mylastfm
-stackoverflow: Novak478
+stackoverflow: 8272342/zack?tab=profile
 # quora: userquora
 # reddit: username
 # medium: medium
