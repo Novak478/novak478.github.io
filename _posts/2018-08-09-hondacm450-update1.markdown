@@ -51,7 +51,7 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/assets/images/cm450A_sidephoto.jpg" alt="Alt Text">
+        ![Markdowm Image][/assets/images/cm450A_sidephoto.jpg]
         <figcaption class="caption">Side Photo</figcaption>
     </div>
 
@@ -62,7 +62,7 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/assets/images/cm450A_fuelfilter.jpg" alt="Alt Text">
+        ![Markdowm Image][/assets/images/cm450A_fuelfilter.jpg]
         <figcaption class="caption">Fuel Filter Example</figcaption>
     </div>
 
@@ -77,7 +77,7 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
     </div>
 
     <div class="toright">
-        <img class="image" src="/assets/images/cm450A_newfronttire.jpg" alt="Alt Text">
+        ![Markdowm Image][/assets/images/cm450A_newfronttire.jpg]
         <figcaption class="caption">New Front tire</figcaption>
     </div>
 </div>
