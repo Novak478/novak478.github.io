@@ -47,41 +47,16 @@ I also added a backrest from a 1978 Honda Cm185T Twinstar. It was mainly a direc
 
 ---
 
-## Side-by-side
+## Photos
 
-<div class="side-by-side">
-    <div class="toleft">
-        ![Markdowm Image][/assets/images/cm450A_sidephoto.jpg]
-        <figcaption class="caption">Side Photo</figcaption>
-    </div>
+![Markdowm Image][/assets/images/cm450A_sidephoto.jpg]
+Side Photo before tune up
 
-    <div class="toright">
-        <p>Side photo before I added the backrest and changed the tire..</p>
-    </div>
-</div>
+![Markdowm Image][/assets/images/cm450A_fuelfilter.jpg]
+Example of how you add a fuel filter to bike - splice between fuel line between petcock and carburetor.
 
-<div class="side-by-side">
-    <div class="toleft">
-        ![Markdowm Image][/assets/images/cm450A_fuelfilter.jpg]
-        <figcaption class="caption">Fuel Filter Example</figcaption>
-    </div>
-
-    <div class="toright">
-        <p>Example of how you add a fuel filter to bike - splice between fuel line between petcock and carburetor.</p>
-    </div>
-</div>
-
-<div class="side-by-side">
-    <div class="toleft">
-        <p>Photo of new front tire. Old front tire was showing signs of dry rot from sitting. Did everything myself but seal the bead - I do not recommend doing the "starter fluid and lighter" method, and I do not have an air compressor powerful enough to do it. Any mechanic shop who does tires usually will have no problem sealing the bead for you. Shout out to Monroe Muffler of Painesville Ohio and the manager Bob for taking care of me there. $5 for bead seal and balance.</p>
-    </div>
-
-    <div class="toright">
-        ![Markdowm Image][/assets/images/cm450A_newfronttire.jpg]
-        <figcaption class="caption">New Front tire</figcaption>
-    </div>
-</div>
-
+![Markdowm Image][/assets/images/cm450A_newfronttire.jpg]
+Photo of new front tire. Old front tire was showing signs of dry rot from sitting. Did everything myself but seal the bead - I do not recommend doing the "starter fluid and lighter" method, and I do not have an air compressor powerful enough to do it. Any mechanic shop who does tires usually will have no problem sealing the bead for you. Shout out to Monroe Muffler of Painesville Ohio and the manager Bob for taking care of me there. $5 for bead seal and balance.
 ---
 
 ## Cruise after I just bought it
