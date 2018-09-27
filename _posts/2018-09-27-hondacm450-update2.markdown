@@ -66,7 +66,7 @@ Left side of the exhaust.
 ![No fender and dice](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/2018-09-25_17-rightSideExhaust.jpeg?raw=true)
 Photo showing no front fender and the dice valve cap.
 
-![Geneva on the Lake](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/GenevaOnTheLakeRideWithPaige.jpeg?raw=true)
+![Geneva on the Lake](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/GenevaOnTheLakeRideWithPaige.png?raw=true)
 Finally, here's just a photo from my girlfriend and I's ride to Geneva on the Lake a week ago!
 ---
 
