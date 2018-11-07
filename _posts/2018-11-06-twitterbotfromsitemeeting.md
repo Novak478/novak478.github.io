@@ -331,8 +331,10 @@ def tweet():
             sleep(2)
 
 tweet()
-{% endhighlight %}
 
+{% endhighlight %}
+{% capture example_variable %}
+{% endcapture %}
 ![That's all folks!](https://media.giphy.com/media/nXxOjZrbnbRxS/giphy.gif)
 
 Thanks for reading along. I'm afraid I am a little behind on homework as of 11/7/18, so I made this quickly but I plan on revising this guide further to go further into the logic and how it works, so please excuse the lack of fine detail. Please let me know if you have any questions by emailing me at zmn3@zips.uakron.edu. Thank you!
