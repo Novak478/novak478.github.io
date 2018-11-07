@@ -16,7 +16,6 @@ description: Create a basic twitterbot with hopefully no problems.
 
 ## Summary:
 
-Revision 3.
 Creating a basic twitterbot using Python 3 and Tweepy.
 
 ---
@@ -46,7 +45,7 @@ I created this project to introduce Python to students in the University of Akro
 
 Here is the entire code:
 
-##Twitterbot.py
+## Twitterbot.py
 
 {% highlight html %}
 import tweepy
