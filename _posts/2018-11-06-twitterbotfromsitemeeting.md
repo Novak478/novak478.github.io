@@ -16,6 +16,7 @@ description: Create a basic twitterbot with hopefully no problems.
 
 ## Summary:
 
+Revision 3.
 Creating a basic twitterbot using Python 3 and Tweepy.
 
 ---
@@ -151,7 +152,7 @@ access_token_secret = 'keys please'
 
 Not that much right?
 
-##Here are the example outputs:
+Here are the example outputs:
 
 
 ![Terminal Output](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/TwitterbotTerminalOutput.PNG?raw=true)
