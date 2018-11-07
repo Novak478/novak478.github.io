@@ -140,8 +140,6 @@ tweet()
 {% endhighlight %}
 
 ## Credentials.py
-{% highlight html %}
-
 
 {% highlight html %}
 consumer_key = 'get'
