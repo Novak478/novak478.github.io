@@ -30,20 +30,22 @@ Hi everyone! This is a simple twitterbot that:
 -   Tweet out a text file of your choosing, line by line. I am using Bram Stoker's Dracula.
 
 This tutorial is made using:
--	[https://www.python.org/downloads/](Python 3)
--	[http://www.tweepy.org/](Tweepy)
+-	[Python 3](https://www.python.org/downloads/)(Python 3)
+-	[Tweepy](http://www.tweepy.org/)
 
 I am also using Python's default shell "IDLE" for this.
 
 ---
 
-I created this project to introduce Python to students in the University of Akron's Information Technology & eBusiness (SITE) group in a fun way. I also tried to familiarize them with how to import files / libraries, create a credential file, use a try / catch block and conditional statements, open/read/close files, and interact with an API. In full disclosure, the tutorial / project is a combination of Twitterbot projects from [https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library](DigitalOcean) and [https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607](Free Code Camp).
+I created this project to introduce Python to students in the University of Akron's Information Technology & eBusiness (SITE) group in a fun way. I also tried to familiarize them with how to import files / libraries, create a credential file, use a try / catch block and conditional statements, open/read/close files, and interact with an API. In full disclosure, the tutorial / project is a combination of Twitterbot projects from [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-create-a-twitterbot-with-python-3-and-the-tweepy-library) and [Free Code Camp](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607).
 
 --
 
 ## Code
 
 Here is the entire code:
+
+##Twitterbot.py
 
 {% highlight html %}
 import tweepy
@@ -136,7 +138,9 @@ tweet()
 
 {% endhighlight %}
 
-##Credentials File
+## Credentials.py
+{% highlight html %}
+
 
 {% highlight html %}
 consumer_key = 'get'
@@ -150,30 +154,30 @@ Not that much right?
 ##Here are the example outputs:
 
 
-![Terminal Output](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/TwitterbotTerminalOutput.png?raw=true)
+![Terminal Output](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/TwitterbotTerminalOutput.PNG?raw=true)
 
-![Twitter Output](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/TwitterbotTwitterOutput.png?raw=true)
+![Twitter Output](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/TwitterbotTwitterOutput.PNG?raw=true)
 
 --
 ## Detailed Steps
 
-1. Create a twitter account
-This is pretty standard. Just head to [www.twitter.com](twitter) and create an account. If you already have one, you can choose to associate it with your bot or create an entirely new one.
+1. Create a twitter account if you do not have one already. Just head to [twitter](www.twitter.com) and create an account. If you already have one, you can choose to associate it with your bot or create an entirely new one.
 
-2. Apply for a developer account
+2. Apply for a developer account.
 Go to: [https://apps.twitter.com/](https://apps.twitter.com/) and apply for a developer account. Choose the twitter account you want to associate with the bot. Go through the following application, accept the TOS, and submit the application. You will have to verify your email, and then your application will be reviewed. I have it be approved in as few as 20 minutes but also up to 2 hours.
 
 
 3. Start coding!
 When your application gets approved and you are given your Twitter Developer tokens, you are able to start coding!
 
+## Getting started
 In your command line, run the command ‘pip install tweepy’. You may have to run it as an administrator in some cases, depending on how your system is configured. 
 {% highlight html %}
 pip install tweepy
 {% endhighlight %}
-![pip install tweepy](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/pipinstalltweepy.png?raw=true)
+![pip install tweepy](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/pipinstalltweepy.PNG?raw=true)
 
-NOTE: you can get pip by going to [https://bootstrap.pypa.io/get-pip.py](get-pip.py). Copy the entire file, paste it into an empty file, save it as "getpip.py". It's important to save that file where your python files are naturally saved to (so think where your version of python is downloaded to). Run that file. You should then have pip.
+NOTE: you can get pip by going to [get-pip.py](https://bootstrap.pypa.io/get-pip.py). Copy the entire file, paste it into an empty file, save it as "getpip.py". It's important to save that file where your python files are naturally saved to (so think where your version of python is downloaded to). Run that file. You should then have pip.
 
 After that, create your credentials.py file.  
 {% highlight html %}
@@ -329,6 +333,8 @@ def tweet():
 
 tweet()
 {% endhighlight %}
+
+![That's all folks!](https://media.giphy.com/media/nXxOjZrbnbRxS/giphy.gif)
 
 Thanks for reading along. I'm afraid I am a little behind on homework as of 11/7/18, so I made this quickly but I plan on revising this guide further to go further into the logic and how it works, so please excuse the lack of fine detail. Please let me know if you have any questions by emailing me at zmn3@zips.uakron.edu. Thank you!
 ---
