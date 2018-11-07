@@ -31,7 +31,7 @@ Hi everyone! This is a simple twitterbot that:
 -   Tweet out a text file of your choosing, line by line. I am using Bram Stoker's Dracula.
 
 This tutorial is made using:
--	[Python 3](https://www.python.org/downloads/)(Python 3)
+-	[Python 3](https://www.python.org/downloads/)
 -	[Tweepy](http://www.tweepy.org/)
 
 I am also using Python's default shell "IDLE" for this.
