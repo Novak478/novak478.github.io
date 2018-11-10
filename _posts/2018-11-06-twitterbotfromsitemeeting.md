@@ -2,13 +2,14 @@
 title: "Basic Twitterbot walkthrough"
 layout: post
 date: 2018-11-06 00:10
-image: /assets/images/markdown.jpg
-headerImage: false
+image: https://a.slack-edge.com/ae7f/img/services/twitter_512.png
+headerImage: true
+projects: true
 tag:
 - programming
 - tech
 - tutorial
-category: projects
+category: project
 author: zacknovak
 description: Create a basic twitterbot with hopefully no problems. 
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
