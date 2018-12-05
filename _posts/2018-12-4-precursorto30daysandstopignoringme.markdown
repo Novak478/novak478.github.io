@@ -35,6 +35,7 @@ I am doing everything using Python 3.6 in Microsoft Visual Studio Code with the 
 Just to make sure I was set for Sunday, I got started with Flask today following Salvador's [Flask tutorial](https://medium.freecodecamp.org/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492) on how to build a web application to make sure everything was at least started okay. I pretty much followed it until the virtualenv part so that my main.py file looks like below:
 
 {% highlight html %}
+
 from flask import Flask, render_template     
 
 app = Flask(__name__)
@@ -53,9 +54,10 @@ def zack():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 {% endhighlight %}
 
-So yeah, everything is good to go it seems. So what am I doing in these 30 days? I am going to be working on a personal project, stopignoring.me. Let me start with a very short pitch for it below....
+So yeah, everything is good to go it seems. What am I doing in these 30 days? I am going to be working on a personal project, stopignoring.me. Let me start with a very short pitch for it below....
 
 --
 
@@ -76,7 +78,7 @@ To make my girlfriend happy, I promised earlier this year that I would build her
 
 This is not meant to be a serious project / website, but a rather goofy one instead. 
 
-The goal of this is 30 days is to create a flask web application using a microservices architecture. It will have/be:
+The goal is to create a flask web application using a microservices architecture in 30 days or less. It will have/be:
 
 - a login system complete with authentication of some sort (besides phone/email verification).
 - a user dashboard letting you know how many times someone has let you know they want attention from you, common times they want attention, and your most attention-hungry associates.
@@ -90,6 +92,7 @@ Am I going in over my head? probably, but it's OK. The overall goal is to just h
 
 Thanks for reading - looking forward to what I can do and learn in the next coming days. Happy Holidays!
 
+## She is actually happy with me sometimes though. 
 ![She is happy with me sometimes tho](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/paige_sickoftakingpictures.PNG?raw=true)
 ---
 
