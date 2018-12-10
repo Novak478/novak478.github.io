@@ -41,6 +41,7 @@ It went over user input and forms such as login and registration forms. Highly r
 ![Login Form](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/loginform.PNG?raw=true)
 
 {% highlight html %}
+
 {% extends "layout.html" %}
 {% block content %}
     <div class="content-section">
@@ -93,12 +94,14 @@ It went over user input and forms such as login and registration forms. Highly r
         </small>
     </div>
 {% endblock content %}
+
 {% endhighlight %}
 
 ## Registration Form
 ![Registration Form](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/registrationform.PNG?raw=true)
 
 {% highlight html %}
+
 {% extends "layout.html" %}
 {% block content %}
     <div class="content-section">
@@ -184,10 +187,11 @@ It went over user input and forms such as login and registration forms. Highly r
         </small>
     </div>
 {% endblock content %}
+
 {% endhighlight %}
 --- 
 
-## Follow me the project on github here!
+## Follow my project on github here!
 ![Stop Ignoring Me](https://github.com/Novak478/stopignoringme)
 ---
 
