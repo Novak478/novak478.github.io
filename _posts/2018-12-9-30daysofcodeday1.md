@@ -46,7 +46,7 @@ It went over user input and forms such as login and registration forms. Highly r
 --- 
 
 ## Follow my project on github here!
-![Stop Ignoring Me](https://github.com/Novak478/stopignoringme)
+[Stop Ignoring Me](https://github.com/Novak478/stopignoringme)
 ---
 
 [1]: http://daringfireball.net/projects/markdown/
