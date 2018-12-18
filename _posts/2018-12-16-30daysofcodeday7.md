@@ -1,7 +1,7 @@
 ---
 title: "30 days of code -- Week 1 Overview"
 layout: post
-date: 2018-12-16 00:10
+date: 2018-12-16 01:00
 image: https://s3.amazonaws.com/peccr/wp-content/uploads/2017/06/10233733/Untitled-1.png
 headerImage: true
 projects: true
@@ -25,7 +25,7 @@ Total changes:
 - Created custom error pages
 - Created login and registration system
 - Restructured application to be modular and allow for better separation of features as well as multiple instances of application to be running. 
-- Probably more stuff too, but 
+- Probably more stuff too.
 
 ---
 
