@@ -7,9 +7,9 @@ layout: page
 <p>Zack of all trades, master of none</p>
 
 <br>
-Hello! I am a December 2018 graduate of the University of Akron, graduating with a Bachelors of Business Administration in Management Information Systems. I am mainly focusing on advancing myself through personal projects like 'stopignoring.me' before I start as an associate big data software developer at CardinalCommerce.
+Hello! I am a December 2018 graduate of the University of Akron, graduating with a Bachelors of Business Administration in Management Information Systems. I have a plethora of hobbies, and like to think of myself as a do-it-all DIY kind of guy. 
 
-I mainly have experience with:
+I mainly have professional experience with:
 
 - Python
 - Apache Airflow

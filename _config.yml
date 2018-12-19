@@ -1,5 +1,5 @@
 # main text of home
-name: Zachary Novak
+name: Zack Novak
 bio: Welcome to my online crib!
 
 # twitter summary info
@@ -50,12 +50,12 @@ stackoverflow: 8272342/zack?tab=profile
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: zmn3@zips.uakron.edu
+email: novak.zack.m@gmail.com
 
 authors:
     zacknovak:
         name: Zachary Novak
-        bio: Management Information Systems student at the University of Akron
+        bio: Goofy guy who likes programming and learning about anything he can.
         external-image: false
         picture: assets/LinkedInHeadshot.jpg
 
