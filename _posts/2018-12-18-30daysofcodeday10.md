@@ -1,7 +1,7 @@
 ---
 title: "30 days of code -- Day 10 Overview"
 layout: post
-date: 2018-12-18 01:00
+date: 2018-12-18 03:00
 image: https://i1.wp.com/www.betsandstats.com/wp-content/uploads/2017/03/Day-10.png?w=256
 headerImage: true
 projects: true
@@ -28,6 +28,7 @@ Total changes:
 - set up cname and txt records in stopignoring.me DNS to verify and allow MAIL FROM
 - verified stopignoring.me with aws
 - set up application to send emails from ses
+
 ---
 
 ## Day 10
