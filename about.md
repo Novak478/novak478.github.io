@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p> Zack of all trades master of none </p>
+<p>Zack of all trades, master of none</p>
 
 <br>
 Hello! I am a December 2018 graduate of the University of Akron, graduating with a Bachelors of Business Administration in Management Information Systems. I am mainly focusing on advancing myself through personal projects like 'stopignoring.me' before I start as an associate big data software developer at CardinalCommerce.
