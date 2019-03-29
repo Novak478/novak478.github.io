@@ -4,26 +4,20 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Zack of all trades, master of none</p>
+<h2>About Me </h2>
+I am currently working on the Database Engineering team at CardinalCommerce. a subsidiary of Visa in Mentor Ohio (east of Cleveland). I graduated with my Bachelors in Information Systems Management at the University of Akron in December 2018. 
 
-<br>
-Hello! I am a December 2018 graduate of the University of Akron, graduating with a Bachelors of Business Administration in Management Information Systems. I have a plethora of hobbies, and like to think of myself as a do-it-all DIY kind of guy. 
+<h2>Skills</h2>
 
-I mainly have professional experience with:
+- Development: Java, Scala, Python, C#, .Net, Atlassian Tools (Jira, Confluence, Crucible), Bash, Shell, Apache (Hadoop, Airflow, Kafka, Spark), PuTTY, SVN, Git, Pandas, Numpy, Seaborn, Matplotlib, JSP, Docker, AJAX, SQL, WinMerge, VMWare, VirtualBox, and probably more.
 
-- Python
-- Apache Airflow
-- Apache Spark
-- Apache Kafka
-- Databricks
-- Java
-- Spring MVC
-- SQL / MySQL
-- AJAX, REST, jQuery
-- REST
+- Cloud: Amazon AWS technologies (S3, SES, IAM, EC2, Lambda), Databricks
 
-This is a mouthful, but I also have experience with C#, Scala, C++, R, PHP, HTML, CSS, JavaScript, .NET, PowerShell, neo4j, Linux, Apache Spark, AWS S3 / EC2 / SES, Elastic Stack, Agile Environment, Atlassian Stack, MS Office, Visual Studio, Git, SVN, and probably more that I've forgot to list off.
+- Database: MySQL, Postgres, MSSQL, SSRS, Amazon AWS (Redshift, RDS)
 
-Please feel free to email me at admin@stopignoring.me with any questions, potential projects, requests, etc.
+- Front-End Development: HTML5, CSS3, Jquery, JavaScript, Bootstrap, Spring, Flask, Thymeleaf
 
-Thanks!
+- Analytics: Alteryx, Tableau, Excel, limited R.
+
+<h2> Hobbies </h2>
+In my spare time, I like to read, work on personal projects like this website, cook with my girlfriend, work/ride on my motorcycle all over Ohio and PA, and generally have a good time. 
