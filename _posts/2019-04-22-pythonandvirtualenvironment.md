@@ -1,5 +1,5 @@
 ---
-title: "How to setup python 2.7 and 3.7 with a virtual environment CAW CAW DID IT CHANGE WTH GITHUB"
+title: "How to setup python 2.7 and 3.7 with a virtual environment"
 layout: post
 date: 2019-04-22 20:00
 projects: true
@@ -32,7 +32,7 @@ Installations you need to have ahead of time:
 * Go to [Python 3.7](https://www.python.org/downloads/release/python-370/) and grab the appropriate windows exe. Download to your default downloads folder. Note the description based on your computer.
 * Run 2.7.16.exe first
 * Make sure you are downloading to C:\opt\Python27
-* When you go to this screen: ![python27 install](assets/images/python27install.png) make sure you check the option add python.exe to path and pip option.
+* When you go to this screen: ![python27 install](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/python27install.png) make sure you check the option add python.exe to path and pip option.
 * Finish downloading 2.7.
 * After the installation is complete double check to make sure you see python in your PATH! You can find your path by opening your control panel -> System and Security -> System -> Advanced System Settings -> Environment Variables -> Selecting Path -> Edit ->
 * Now you’re looking at your Path. Be Careful! If you delete or add to the path accidentally you may break other programs.
@@ -143,7 +143,7 @@ cd 27example
 * When that is done, go to File -> Import -> General -> Existing Projects into Workspace
 * Choose `C:\Users\<your name>\dev\27example` in ‘Select root directory`
 * Press finish.
-* The following popup will occur: ![eclipse python interpreter](assets/images/eclipsepythoninterpreter.png)
+* The following popup will occur: ![eclipse python interpreter](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/eclipsepythoninterpreter.png)
 Choose “Manual config”
 * In the following popup “Select interpreter”, set:
     * The Interpreter Name: as “python27example venv”.
@@ -159,9 +159,8 @@ Choose “Manual config”
 * Go to PyDev -> Set as PyDev project. Press OK.
 * Finally create a new file called “helloworld.py”.
 * In this, enter in:
-```python
+``` python
 import pandas
- 
 print “hello world”
 ```
 
@@ -169,7 +168,7 @@ print “hello world”
     * It will error! This is because this virtual environment does not have pandas in it
 * Change  “import pandas” to:
 
-```python
+``` python
 #import pandas
 import flask, requests, numpy
 ```
