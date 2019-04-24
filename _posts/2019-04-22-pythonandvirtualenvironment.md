@@ -1,5 +1,5 @@
 ---
-title: "How to setup python 2.7 and 3.7 with a virtual environment"
+title: "How to setup python 2.7 and 3.7 with a virtual environment CAW CAW DID IT CHANGE WTH GITHUB"
 layout: post
 date: 2019-04-22 20:00
 projects: true
