@@ -159,18 +159,21 @@ Choose “Manual config”
 * Go to PyDev -> Set as PyDev project. Press OK.
 * Finally create a new file called “helloworld.py”.
 * In this, enter in:
-``` python
+```python
 import pandas
  
 print “hello world”
 ```
+
 * Try to run it by pressing the green run button on the top toolbar.
     * It will error! This is because this virtual environment does not have pandas in it
 * Change  “import pandas” to:
+
 ```python
 #import pandas
 import flask, requests, numpy
 ```
+
 * Run again (feel free to delete the old import)
 * It will now run fine – you’re good to go!
 ## This concludes how to download/install python, virtualenv, import projects, and run them.
