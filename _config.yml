@@ -1,6 +1,6 @@
 # main text of home
 name: Zack Novak
-bio: Welcome to my online crib!
+#bio: 
 
 # twitter summary info
 # description: A blog about technology and stuff related
@@ -14,7 +14,7 @@ picture: assets/LinkedInHeadshot.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/NovakZachary11.6.18_Resume.pdf
+resume-url: assets/NovakZachary_5.7.18_Resume.pdf
 
 url: https://novak478.github.io./
 # your url: http://USERNAME.github.io
@@ -55,7 +55,7 @@ email: novak.zack.m@gmail.com
 authors:
     zacknovak:
         name: Zachary Novak
-        bio: Goofy guy who likes programming and learning about anything he can.
+        bio: Zack of all trades, master of none.
         external-image: false
         picture: assets/LinkedInHeadshot.jpg
 
