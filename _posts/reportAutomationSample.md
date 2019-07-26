@@ -36,7 +36,7 @@ This 🔥bad🔥 boy is called by a cron job every day. When called, the script 
 ## Script
 
 
-{% highlight bash %}
+{% highlight shell %}
 #!/bin/bash
  
 parent=example/report/location
@@ -111,7 +111,7 @@ done
 # Create the output file
 gpg --output $reportfileencrypted -r <publicKeyOfRecipient> -e $reportfile
  
-# connect to verifi, drop encrypted file, disconnect
+# connect to client, drop encrypted file, disconnect
 sftp -v -oPort=22 <sftpLocation>:<Path/To/Drop/Report/Off/In> << !
    put $reportfileencrypted
    bye
