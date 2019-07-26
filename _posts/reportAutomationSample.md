@@ -36,7 +36,7 @@ This 🔥bad🔥 boy is called by a cron job every day. When called, the script 
 ## Script
 
 
-{% highlight shell %}
+```bash
 #!/bin/bash
  
 parent=example/report/location
@@ -123,7 +123,7 @@ aws s3 cp success.txt $datapath/ --region us-east-1
  
 # Clean up
 rm -f $reportpath/*
-{% endhighlight %}
+```
 
 ---
 
