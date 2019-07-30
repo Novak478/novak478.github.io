@@ -203,9 +203,8 @@ if (startDateUsed.equals(true) && endDateUsed.equals(true)) {
 
 Replacing nulls 
 ```scala
-val naFunctionsRollup = rollupLogsDf.na
-val rolluplogsCleaned_df = naFunctionsRollup.fill("0")
-val rollupWithDtTsDf = rolluplogsCleaned_df
+val naBaseDf = basedf.na
+val cleanedBaseDf = naBaseDf.fill("0")
 ```
 
 Write to elasticsearch
