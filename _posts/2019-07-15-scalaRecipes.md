@@ -1,7 +1,7 @@
 ---
 title: "Useful Scala Functions"
 layout: post
-date: date
+date: 2019-07-15
 projects: true
 tag:
 - tech
