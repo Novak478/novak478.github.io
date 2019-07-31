@@ -420,7 +420,7 @@ def unionRegardlessOfColumns(df1: DataFrame, df2: DataFrame): DataFrame = {
 }
 ```
 
-How to filter by a list of multiple columns (Spark with Scala): e.g. filter by list of PID/MIDs
+How to filter by a list of multiple columns (Spark with Scala): e.g. filter by list of two ids
 
 Problem: I have a list of tuples of #1ids and #2ids combinations that I need to use to filter my data.
 Solution: Use the Spark function concat_ws to concatinate column values and filter this against all of the tuples in the list mapped to also be concatenated values.
