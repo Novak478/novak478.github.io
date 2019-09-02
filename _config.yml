@@ -8,13 +8,13 @@ name: Zack Novak
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/LinkedInHeadshot.jpg
+picture: assets/edgewater_resized_1.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/NovakZachary_5.7.18_Resume.pdf
+resume-url: assets/NovakZachary_9.2.19_Resume.pdf
 
 url: https://novak478.github.io./
 # your url: http://USERNAME.github.io
@@ -50,14 +50,14 @@ stackoverflow: 8272342/zack?tab=profile
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: novak.zack.m@gmail.com
+email: zack@znovak.io
 
 authors:
     zacknovak:
         name: Zachary Novak
-        bio: Zack of all trades, master of none.
+        bio: Enthusiastic learner with a passion for data and the truth that it holds.
         external-image: false
-        picture: assets/LinkedInHeadshot.jpg
+        picture: assets/edgewater_resized_1.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
