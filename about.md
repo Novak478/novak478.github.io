@@ -9,15 +9,12 @@ I am currently working on the Database Engineering team at CardinalCommerce, a s
 
 <h2>Skills</h2>
 
-- Development: Java, Scala, Python, C#, .Net, Atlassian Tools (Jira, Confluence, Crucible), Bash, Shell, Apache (Hadoop, Airflow, Kafka, Spark), PuTTY, SVN, Git, Pandas, Numpy, Seaborn, Matplotlib, JSP, Docker, AJAX, SQL, WinMerge, VMWare, VirtualBox, and probably more.
-
+- Development: Java, Scala, Python, Atlassian Tools (Jira, Confluence, Crucible), Bash, Shell, Apache (Airflow, Kafka, Spark), PuTTY, SVN, Git, Numpy, scikit, Pandas, JSP, Docker, AJAX, SQL, WinMerge, VirtualBox, SFTP, GPG, Venv, Git/BitBucket, JDBC, Gradle, Maven, Jenkins, Alteryx, JetBrains (PyCharm, IntelliJ), Eclipse
 - Cloud: Amazon AWS technologies (S3, SES, IAM, EC2, Lambda), Databricks
+- Database: MySQL, Postgres, MSSQL, SSRS, Amazon AWS (Redshift, RDS), InfluxDB. Neo4J, SQL Workbench
+- Front-End Development: HTML, CSS, Jquery, JavaScript, Bootstrap, Spring, Flask, Thymeleaf
+- Analytics: Elasticsearch, Tableau, Excel, R. Python
 
-- Database: MySQL, Postgres, MSSQL, SSRS, Amazon AWS (Redshift, RDS)
-
-- Front-End Development: HTML5, CSS3, Jquery, JavaScript, Bootstrap, Spring, Flask, Thymeleaf
-
-- Analytics: Alteryx, Tableau, Excel, limited R.
 
 <h2> Hobbies </h2>
 In my spare time, I like to read, work on personal projects like this website, cook with my girlfriend, work/ride on my motorcycle all over Ohio and PA, and generally have a good time. 
