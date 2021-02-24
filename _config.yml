@@ -14,7 +14,7 @@ picture: assets/edgewater_resized_1.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/NovakZachary_9.2.19_Resume.pdf
+resume-url: assets/NovakZachary_02.24.21_Resume.pdf
 
 url: https://novak478.github.io./
 # your url: http://USERNAME.github.io
@@ -37,7 +37,7 @@ disqus:
 # facebook: myfacebook
 # twitter: mytwitter
 # google: mygoogle
-instagram: znovak.io
+instagram: zcknvk
 # pinterest: mypinterest
 linkedin: znovak1996
 # youtube: myyoutube
@@ -54,8 +54,8 @@ email: zack@znovak.io
 
 authors:
     zacknovak:
-        name: Zachary Novak
-        bio: Enthusiastic learner with a passion for data and the truth that it holds.
+        name: Zachary (Zack) Novak
+        bio: An enthusiastic learner working in IT.
         external-image: false
         picture: assets/edgewater_resized_1.jpg
 
