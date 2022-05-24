@@ -1,6 +1,6 @@
 # main text of home
 name: Zack Novak
-#bio: 
+bio: Data Engineer from Cleveland, Ohio. 
 
 # twitter summary info
 # description: A blog about technology and stuff related
@@ -8,13 +8,14 @@ name: Zack Novak
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/edgewater_resized_1.jpg
+picture: assets/210804_Zack_Novak_040_PRINT.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/NovakZachary_02.24.21_Resume.pdf
+resume-url: assets/ZacharyNovak_resume012822.pdf
+
 
 url: https://novak478.github.io./
 # your url: http://USERNAME.github.io
@@ -55,14 +56,14 @@ email: zack@znovak.io
 authors:
     zacknovak:
         name: Zachary (Zack) Novak
-        bio: An enthusiastic learner working in IT.
+        bio: Data Engineer from Cleveland, Ohio.s
         external-image: false
-        picture: assets/edgewater_resized_1.jpg
+        picture: assets/210804_Zack_Novak_040_LOWRES_WORKING.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
