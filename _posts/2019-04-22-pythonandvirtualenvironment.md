@@ -28,7 +28,7 @@ Installations you need to have ahead of time:
 ### 1. Downloading Python
 * Go to your C drive (C:\)
 * Create a folder “opt” – C:\opt\
-* Go to [Python 2.7.16](https://www.python.org/downloads/release/python-2716/). Download the .msi to your default downloads folder. 
+* Go to [Python 2.7.16](https://www.python.org/downloads/release/python-2716/). Download the .msi to your default downloads folder.
 * Go to [Python 3.7](https://www.python.org/downloads/release/python-370/) and grab the appropriate windows exe. Download to your default downloads folder. Note the description based on your computer.
 * Run 2.7.16.exe first
 * Make sure you are downloading to C:\opt\Python27
@@ -54,12 +54,12 @@ Installations you need to have ahead of time:
 * Also wait until that is done downloading.
 ### 3. Making two different virtual environments
 * We are now going to create two separate virtual environments; one with Python 2.7, the other with Python 3.7.
-* In your cmd prompt, enter: 
+* In your cmd prompt, enter:
 ```powershell
 mkvirtualenv python27example -p=C:\opt\python27\python.exe
 ```
 This is saying essentially make a new virtual environment named python27example using the Python 2.7 as it’s interpreter.
-* Wait for that to download – it may take a minute or two. 
+* Wait for that to download – it may take a minute or two.
 * Environments are created at the following path: C:\Users\<user>\Envs
 * This will create a folder with python2.7’s exe in it, pip, and setup tools as well as activate that virtual environment (shown by (python27example) to the left of your cmd prompt).
 * In your cmd prompt, now enter `deactivate python27example`.
@@ -97,15 +97,15 @@ This is now the home for the virtual environment. The next time you activate the
         *   So this may seem confusing, but this doesn’t actually run the file like you might think – this is just a linting/debugging/intellisense/refactoring tool. Very helpful in actually writing code.
     * Code Runner
         * Allows you to highlight and run just sections of code (like a notebook – helpful testing just sections instead of a whole file).
-* Next right click in your directory and click “New File’. Name it helloworld.py. 
-* In this file, enter 
+* Next right click in your directory and click “New File’. Name it helloworld.py.
+* In this file, enter
 ```python
 import pandas
 print("hello world")
 ```
 * Click on the blue/black bar under the cog wheel that you clicked on for your extensions, and click your virtual environment `Python 3.7.32 (‘python37example’: virtualenv)`
 * Close and re-open VS Code.
-* Run the file by pressing “Run Code” in the top right of VS Code. You'll see "hello world" in the output. You should be golden ponyboy. 
+* Run the file by pressing “Run Code” in the top right of VS Code. You'll see "hello world" in the output. You should be golden ponyboy.
 * Close VS Code.
 * Go back to your cmd prompt and enter `deactivate python37example`
 ### 5. Eclipse
@@ -120,7 +120,7 @@ cd 27example
 * Enter `setprojectdir .`
 * Lets introduce you to requirements.txt functions.
 * Go to `C:\Users\<your name>\dev\27example` and create a text file called `requirements.txt`.
-* In this text file, add: 
+* In this text file, add:
     * Flask
     * requests
     * numpy

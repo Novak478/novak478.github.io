@@ -10,7 +10,7 @@ tag:
 - scala
 category: project
 author: zacknovak
-description: Scala functions that I realized I will probably want to keep and reference at a later date. 
+description: Scala functions that I realized I will probably want to keep and reference at a later date.
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
@@ -19,7 +19,7 @@ description: Scala functions that I realized I will probably want to keep and re
 Hit CTRL+F and do your best. This is not currently organized in any particular way.
 ---
 
-## 
+##
 
 
 Lesson from https://medium.com/@manuzhang/the-hidden-cost-of-spark-withcolumn-8ffea517c015:
@@ -28,7 +28,7 @@ The post basically states that each time you create a new column using `withColu
 import org.apache.spark.sql.types.{StringType, IntegerType, DateType}
 import org.apache.spark.sql.functions._
 val exNew = ex.select(ex.columns.map { col =>
-  if (col == "hour") { ex(col).cast(IntegerType)} 
+  if (col == "hour") { ex(col).cast(IntegerType)}
   else if (col == "day") { ex(col).cast(DateType)}
   else { ex(col).cast(StringType)}
 }: _*)
@@ -131,7 +131,7 @@ import java.util.TimeZone
 val startDate = "2019-07-01"
 val endDate = "2019-07-30"
 
-var dates: Array[String] = null 
+var dates: Array[String] = null
 
 def getNextDay(date: String): String = {
   val formatter = new java.text.SimpleDateFormat("yyyy-MM-dd")
@@ -192,7 +192,7 @@ if (startDateUsed.equals(true) && endDateUsed.equals(true)) {
   theDateCheck = sdfCheck.parse(startDate)
   val startDateCheck = new Timestamp(theDateCheck.getTime)
   println(startDateCheck)
-  
+
   if (endDateCheck.after(startDateCheck)) {
     dateGreateCheck = true
   } else {
@@ -201,7 +201,7 @@ if (startDateUsed.equals(true) && endDateUsed.equals(true)) {
 }
 ```
 
-Replacing nulls 
+Replacing nulls
 ```scala
 val naBaseDf = basedf.na
 val cleanedBaseDf = naBaseDf.fill("0")
@@ -213,13 +213,13 @@ import org.elasticsearch.spark._
 import org.elasticsearch.spark.sql._
 
 //write to elasticsearch index
-EsSparkSQL.saveToEs(df,"es/index", 
+EsSparkSQL.saveToEs(df,"es/index",
                         Map("es.mapping.id" -> "id",
                           "es.batch.write.retry.count" -> "10",
                           "es.batch.write.retry.wait" -> "30s",
                           "es.write.operation" -> "index",
-                          "es.nodes.wan.only" -> "true", 
-                          "es.nodes" -> "es.node.ip.address")) //only write to one master node 
+                          "es.nodes.wan.only" -> "true",
+                          "es.nodes" -> "es.node.ip.address")) //only write to one master node
 ```
 
 Import json data and clean up column names
@@ -245,7 +245,7 @@ val isOther = udf((column: String) => {
 var aggData = subsetData
   .groupBy($"txndate")
   .agg(
-    sum(lit(1)) as "TotalTxns", 
+    sum(lit(1)) as "TotalTxns",
     sum(isOther($"otherStatus")) as "OtherStatusCount")
 ```
 
@@ -286,10 +286,10 @@ def getSubStringGroupOrgUnit(pattern: String) = udf((request: String) => {
 })
 
 val base = """id":"(.*?)"""
-val patternOrg = s"${'"'}$base${'"'}"                                                                  
+val patternOrg = s"${'"'}$base${'"'}"
 val basedfWithOrgUnit = basedf.select("*")
   .withColumn("patternMatchGroups", getSubStringGroupOrgUnit(patternOrg)($"request"))
-  .withColumn("idextracted", $"patternMatchGroups".getItem(0))                                
+  .withColumn("idextracted", $"patternMatchGroups".getItem(0))
   .drop("patternMatchGroups")
 
 ```
@@ -321,7 +321,7 @@ for ((txnDt, hour) <- txnDatesAndHours) {
     badDateHours += ((txnDt, hour))
   }
 }
- 
+
 // NEW WAY, BAD DATES COLLECTED INTO IMMUTABLE SEQUENCE
 val badDateHours = for ((txnDt, hour) <- txnDatesAndHours if (getCount(s3data, txnDt, hour) != getCount(redshiftData, txnDt, hour))) yield ((txnDt, hour))
 ```
@@ -342,7 +342,7 @@ Solution: Use row_number over a Window.partitionBy on the grouping identifier ha
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.functions.row_number
 import org.apache.spark.sql.expressions.Window
- 
+
 // Get the 5 records having highest Amount for each MerchantId
 val topFiveRecordsPerMerchant = myMerchantTxnData.toDF().withColumn("rn", row_number.over(Window.partitionBy($"MerchantId").orderBy($"Amount".desc))).where($"rn" <= 5).drop("rn")
 ```
@@ -409,7 +409,7 @@ def unionRegardlessOfColumns(df1: DataFrame, df2: DataFrame): DataFrame = {
   val cols1 = df1.columns.toSet
   val cols2 = df2.columns.toSet
   val allcolumns = cols1 ++ cols2
-   
+
   def nullsForMissings(dfCols: Set[String], allCols: Set[String]) = {
     allCols.toList.map(x => x match {
       case x if dfCols.contains(x) => col(x)
@@ -431,9 +431,9 @@ val listOfColumnsTest = Seq(
                       ("140", "ghj"),
                       ("139", "xvy")
                   )
- 
+
 import org.apache.spark.sql.functions.concat_ws
- 
+
 // concat_ws's first argument is separator between values, we're just using empty string here
 val filteredData = df.filter(concat_ws("", $"column1", $"column2").isin(listOfColumnsTest.map{ tuple => tuple._1 + tuple._2}: _*))
 ```

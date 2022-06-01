@@ -22,7 +22,7 @@ Ever tried to find a specific file for a client or co-worker? It sucks. Use my s
 
 ## The juicy bit
 
-I was recently asked to find a specific file at work and map where it goes to because we receive a new one weekly, and while it's currently replaced automatically, my manager had no idea where it went. Well I had no idea where it was because I didn't work on the application that uses it. Thankfully, my coworker immediately recognized it and helped me out. 
+I was recently asked to find a specific file at work and map where it goes to because we receive a new one weekly, and while it's currently replaced automatically, my manager had no idea where it went. Well I had no idea where it was because I didn't work on the application that uses it. Thankfully, my coworker immediately recognized it and helped me out.
 
 This scenario caught my attention though. What if none us knew where it went? S3 doesn't allow you to just search for a file like a typical search engine. If you had a plethora of buckets, filled with hundreds of sub-buckets like we do, it would be pretty easy to recognize you're up a creek without a paddle. So I've created a Python 3 script that uses the awscli tool and some packages to track where everything is at. I put the script into a new utility Airflow DAG and set it to run weekly on Monday mornings before work (as it takes ~4 hours to finish) so that we avoid this potential problem. The script is below. I've included the full script, but you can chop it down if you just want to gather the contents of each bucket. Hope this helps if you stumble across this!
 
@@ -34,7 +34,7 @@ import re
 import mmap
 
 def s3FileSearch():
-    # input the files you are searching for    
+    # input the files you are searching for
     filesWeAreSearchingFor = ['example1.csv','example2.csv']
     fileTypeWeAreSearchingFor = ".csv"
     # Gets list of buckets and write to .csv file
@@ -54,7 +54,7 @@ def s3FileSearch():
                 bucketName = re.search('    "(.+?)"', bucketNameWhole).group(1)
         except AttributeError:
                print('Invalid bucket name.')
-        # Get list of contents per bucket and save in txt file. --dryrun command makes it so that the command is not actually ran. Using cp because it 
+        # Get list of contents per bucket and save in txt file. --dryrun command makes it so that the command is not actually ran. Using cp because it
         # allows for --exclude and --include args. Rm does too, but it is more risky...
         searchPart = "aws s3 cp s3://"
         searchPart = searchPart + bucketName

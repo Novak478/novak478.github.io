@@ -11,7 +11,7 @@ tag:
 - tutorial
 category: project
 author: zacknovak
-description: Create a basic twitterbot with hopefully no problems. 
+description: Create a basic twitterbot with hopefully no problems.
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
@@ -170,7 +170,7 @@ Go to: [https://apps.twitter.com/](https://apps.twitter.com/) and apply for a de
 When your application gets approved and you are given your Twitter Developer tokens, you are able to start coding!
 
 ## Getting started
-In your command line, run the command ‘pip install tweepy’. You may have to run it as an administrator in some cases, depending on how your system is configured. 
+In your command line, run the command ‘pip install tweepy’. You may have to run it as an administrator in some cases, depending on how your system is configured.
 {% highlight html %}
 pip install tweepy
 {% endhighlight %}
@@ -178,7 +178,7 @@ pip install tweepy
 
 NOTE: you can get pip by going to [get-pip.py](https://bootstrap.pypa.io/get-pip.py). Copy the entire file, paste it into an empty file, save it as "getpip.py". It's important to save that file where your python files are naturally saved to (so think where your version of python is downloaded to). Run that file. You should then have pip.
 
-After that, create your credentials.py file.  
+After that, create your credentials.py file.
 {% highlight html %}
 consumer_key = 'get'
 consumer_secret = 'your'

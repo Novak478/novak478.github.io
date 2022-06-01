@@ -30,9 +30,9 @@ This next update will include (hopefully):
 - Repainting of gas tank to matte black.
 - New 7/8" pullback, 70s chopper handlebars
 - New grips from Biltwell.
-- Rebuild carbs with kit. 
+- Rebuild carbs with kit.
 - Change air intake to pods.
-- Relocate battery / clean up system around air intake 
+- Relocate battery / clean up system around air intake
 - Relocate electric start and killswitch.
 - Chop the rear fender with an angle grinder
 - Minimize rear tail light (change style and remove turn signals)

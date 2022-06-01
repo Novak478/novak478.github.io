@@ -29,11 +29,11 @@ this is my first post into my 1983 Honda CM450A Hondamatic project. I’m really
 ---
 
 Just to tune it up and get a rolling calendar for future repairs going I made some repairs below.
-Everything was bought off of 4into1.com except for the fuel filter and oil. 4into1 specializes in vintage Japanese motorcycles. They are on ebay.com, but it is cheaper to buy it directly from them. Great experience. Only company I have dealt with that has their “free shipping” being priority 2 day via USPS. 
+Everything was bought off of 4into1.com except for the fuel filter and oil. 4into1 specializes in vintage Japanese motorcycles. They are on ebay.com, but it is cheaper to buy it directly from them. Great experience. Only company I have dealt with that has their “free shipping” being priority 2 day via USPS.
 
--	The air filter $9.95. SKU: 12-91400, Emgo Stock Air Filter 
+-	The air filter $9.95. SKU: 12-91400, Emgo Stock Air Filter
 -	The oil filter $3.95. SKU: OF-01, Unbranded Honda oil filter
--	Added a fuel filter that was $5.25 for three off of eBay. It is an inline carburetor fuel filter – ¼” 6mm-7mm bought from seller “blessing2011*2011”. 
+-	Added a fuel filter that was $5.25 for three off of eBay. It is an inline carburetor fuel filter – ¼” 6mm-7mm bought from seller “blessing2011*2011”.
 -	Changed oil $23.89. Model: Genuine Honda 4 Stroke oil 10w-40 from my local Honda dealership
 -	Replaced spark plugs $2.50 each, model: NGK D8EA
 -	Replaced front and rear tire $164.75, models: Kenda K657 challenger set (tires and new valves)
