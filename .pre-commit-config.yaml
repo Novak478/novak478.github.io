@@ -1,4 +1,5 @@
-exclude: '.git|.tox'
+---
+exclude: .git|.tox
 default_stages: [commit]
 fail_fast: true
 
@@ -48,11 +49,6 @@ repos:
       - id: name-tests-test
       - id: double-quote-string-fixer
       - id: requirements-txt-fixer
-  - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.3
-    hooks:
-      - id: yamllint
-        args: [-c, .custom-yamllint.yaml]
   - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
     rev: 0.1.0
     hooks:
@@ -62,3 +58,8 @@ repos:
     rev: v7.5.0
     hooks:
       - id: gitleaks
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.3
+    hooks:
+      - id: yamllint
+        args: [-c, .custom-yamllint.yaml]
