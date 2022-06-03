@@ -28,7 +28,7 @@ This scenario caught my attention though. What if none us knew where it went? S3
 
 ## Code
 
-![s3_file_searcher](https://github.com/Novak478/novak478.github.io/blob/master/assets/python/s3_file_searcher.py#L1-59)
+![s3_file_searcher](https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/python/s3_file_searcher.py)
 
 ---
 
