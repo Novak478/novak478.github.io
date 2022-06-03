@@ -46,6 +46,7 @@ I created this project to introduce Python to students in the University of Akro
 ## Code
 
 ![twitterbot](https://github.com/Novak478/novak478.github.io/blob/master/assets/python/twitterbot.py#L1-89)
+
 ## Credentials.py
 
 Not that much right?
@@ -84,8 +85,6 @@ import datetime
 from time import sleep
 
 # Import our Twitter credentials from credentials.py
-
-
 
 At this point, you are now logged in! To test and make sure you're authenticated, add a small test that should output the twitter username your name for the twitter account you've associated with your developer tokens.
 
