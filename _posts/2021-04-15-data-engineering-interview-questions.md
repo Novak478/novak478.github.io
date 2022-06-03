@@ -2,10 +2,11 @@
 title: "Question to ask during a data engineering interview"
 layout: post
 date: 2021-04-15
-projects: true
 tag:
-
-category: blog
+    - tech
+    - hiring
+    - interviewing
+category: project
 author: zacknovak
 description:
 ---

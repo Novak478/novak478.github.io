@@ -16,6 +16,8 @@ This post covers how to pass arguments to a Python script's argparse inside of a
 
 Docker is the way to go. It's awesome. At my job, we use it for our dev process and for production. However, when we originally developing the dev lifecycle, we struggled with how to use everything together. This post covers how to do it all and is an extension of the stack overflow post that the solution originally came up from https://stackoverflow.com/questions/46245844/pass-arguments-to-python-argparse-within-docker-container.
 
+## Meat and potatoes
+
 So anywho, let's say you have a python script called `main.py` that expects certain runtime arguements like:
 
 ```python

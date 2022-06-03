@@ -39,6 +39,8 @@ It's also worth noting that 2F has a friendly culture to the above rules. Nobody
 
 ## Trust your coworkers, but verify what they are saying
 
+The classic Soviet proverb; Doveryai, no proveryai.
+
 This is espescially true if you are basing decisions on what they state, which you most likely are if you are asking.
 
 Just like the game of telephone where a story changes when it goes from person to person, figures, supposed facts, and reasons change based on who they see / hear it from.
@@ -49,8 +51,8 @@ Like the point above where you should "is this creating value", you should also 
 
 It's unlikely that you'll duplicate work across the team you are on if you're following a work process like scrum or kanban. This issue is about cross team duplication and setting scope boundaries.
 
-Without scope boundaries, you'll likely duplicate work because with potentially serious tech debt due to the different build styles and thus the separate one-off patching / maintenance needed. Also, this can lead to confusion among support staff / business with who to reach out to for client work. This can lead to frustration among development, bad customer support, and overall
+Without scope boundaries, you'll likely duplicate work with potentially serious tech debt due to the different build styles and thus the separate one-off patching / maintenance needed. Also, this can lead to confusion among support staff / business with who to reach out to for client work. This can lead to frustration among development, bad customer support, and overall bottleneck development.
 
-Without cross team communication and project manager / tech lead guidance, you'll also likely duplicate solutions to the same problem. This isn't a huge problem at first because there are many different ways to solve a problem and everything is working to their specific use case, but like above, this can lead to serious tech debt.
+Without cross team communication and project manager / tech lead guidance, you'll also likely duplicate solutions to the same problem. This isn't a huge problem at first because there are many different ways to solve a problem and everyone is working to their specific use case, but like above, this can lead to serious tech debt.
 
 This is where a strong project manager and team lead is immensely valuable. They'll be able to set the boundaries for a team and dictate who should do what. At the very least, senior engineers / tech leads should be meeting to discuss work projects every sprint to see if others had already worked on similar solutions. Keep the context light at first, but discuss the general idea of a project. If someone bites on the general idea, theres a chance it's duplicate work.
