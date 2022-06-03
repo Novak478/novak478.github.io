@@ -27,4 +27,26 @@ In case you've never seen a `setup.py` before, it is what is used to specify the
 
 ## Example setup.py
 
-https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/python/example_setup.py
+```python
+from setuptools import setup
+
+reqs = [
+    "loguru>=0.6.0",
+]
+
+test_pkgs = ["pytest"]
+develop_pkgs = ["jupyterlab"]
+
+setup(
+    name="your_pkg_name",
+    packages=["your_pkg_name"],
+    package_dir={"": "src"},
+    version="0.0.1",
+    python_requires=">3.7",
+    description="Python package for whatever.",
+    url="https://github.com/your_repo",
+    install_requires=reqs,
+    extras_require={"develop": develop_pkgs, "test": test_pkgs},
+    include_package_data=True,
+)
+```
