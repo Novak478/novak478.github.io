@@ -1,6 +1,7 @@
+---
 # main text of home
 name: Zack Novak
-#bio: 
+bio: Data Engineer from Cleveland, Ohio.
 
 # twitter summary info
 # description: A blog about technology and stuff related
@@ -8,13 +9,13 @@ name: Zack Novak
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/edgewater_resized_1.jpg
+picture: assets/210804_Zack_Novak_040_PRINT.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/NovakZachary_02.24.21_Resume.pdf
+resume-url: assets/ZacharyNovak_resume012822.pdf
 
 url: https://novak478.github.io./
 # your url: http://USERNAME.github.io
@@ -22,7 +23,7 @@ url: https://novak478.github.io./
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-118742481-1'
+analytics-google: UA-118742481-1
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -30,8 +31,8 @@ analytics-google: 'UA-118742481-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname:  # enter this from your disqus account
-  categories: [] # only show disqus for posts that have these categories
+  shortname:   # enter this from your disqus account
+  categories: []   # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -53,16 +54,16 @@ stackoverflow: 8272342/zack?tab=profile
 email: zack@znovak.io
 
 authors:
-    zacknovak:
-        name: Zachary (Zack) Novak
-        bio: An enthusiastic learner working in IT.
-        external-image: false
-        picture: assets/edgewater_resized_1.jpg
+  zacknovak:
+    name: Zachary (Zack) Novak
+    bio: Data Engineer from Cleveland, Ohio.
+    external-image: false
+    picture: assets/210804_Zack_Novak_040_LOWRES_WORKING.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -101,4 +102,4 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
