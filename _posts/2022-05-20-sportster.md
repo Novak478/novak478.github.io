@@ -4,25 +4,23 @@ layout: post
 date: 2022-05-20
 headerImage: false
 tag:
-- motorcycle
-- non-tech
-- ridemotorcycleshavefun
+    - motorcycle
+    - non-tech
+    - ridemotorcycleshavefun
 category: blog
 author: zacknovak
 description: Rambling about buying motorcycles and Harley-Davidson Sportsters
 ---
 
-
 # Overview
 
 I bought a 1998 Harley-Davidson Sportster XL883 the other day. It's everything that I wanted and it sucks. It calls out to me like a siren during the workday. It haunts my dreams at night.
 
-
 ## My two cents
 
-Every bike I've owned besides my previous one (a 2006 Honda Rebel) I've tried to make look like a cruiser. It was awesome on one hand because I ended up getting some really rad, unique bikes that caught eyes and were full of stories at motorcycle meet ups as well as swap meets. It was maddening because at the end at the end of the day, everything was custom. Different bolt sizes everywhere. Nothing standardized. This forced me to learn a lot, but reduced the "joy" owning a motorcycle heavily I found at the end. 
+Every bike I've owned besides my previous one (a 2006 Honda Rebel) I've tried to make look like a cruiser. It was awesome on one hand because I ended up getting some really rad, unique bikes that caught eyes and were full of stories at motorcycle meet ups as well as swap meets. It was maddening because at the end at the end of the day, everything was custom. Different bolt sizes everywhere. Nothing standardized. This forced me to learn a lot, but reduced the "joy" owning a motorcycle heavily I found at the end.
 
-Case in point, my 1983 Honda CM450A near the end. 
+Case in point, my 1983 Honda CM450A near the end.
 
 ![CM450A](https://github.com/Novak478/novak478.github.io/blob/master/assets/images/cm450_endoflife.jpg?raw=true)
 
@@ -32,8 +30,7 @@ Last year, I bought a 2006 Honda Rebel 250. I just wanted a stock bike that was 
 
 After 1500+ miles though, I realized I had wore myself out on it. I couldn't go two up on it with my girlfriend. I could never go past 65 mph comfortably. It was bland. It has no personality to it. To it's credit, that's exactly what it's supposed to be and shout out to Honda for designing one hell of a machine. But again, I wanted more.
 
-Enough was enough I decided - time to just buy a damn sportster. Two days later, here I am. 
-
+Enough was enough I decided - time to just buy a damn sportster. Two days later, here I am.
 
 ## Experience so far
 
@@ -43,7 +40,7 @@ Like before, maddening. Also lovely.
 
 Alright so this sucked. I rented a motorcycle Uhaul trailer for $25 and it's rad. Built in wheel chock, higher and cheaper insurance incase you get into an accident, lower ramp height, etc. If you ever need to move a motorcycle, I recommend doing this. You can even rent a van through Uhaul or get a truck from a hardware store to pull the trailer in case you dont want to you use your personal vehicle. In the future, I'll probably be doing this just to ease concerns about towing in my Subaru.
 
-So why did it suck? Well, there were multiple things that went wrong. 
+So why did it suck? Well, there were multiple things that went wrong.
 
 I was having trouble backing the trailer into the seller's driveway so I opted to just park it on the street and then walk it up. This was a mistake. The reason being is that Sportster's have low ground clearance and the trailer's ramp angle was high due to parking on the street. No matter what we did, we would have most likely scraped the frame. If we had walked it up, we could've caught it and adjusted. This is not what happened.
 
@@ -65,7 +62,7 @@ The first hole was directly in the old kickstand bung. I figured this would be t
 
 The second hole was too low. I measured it out, but didn't account for the tension spring adjusting. When all was said and done, the kickstand didn't "snap" back to the rubber stopper holding it in place, but instead hung about 2" down. This worried me that I'd lose the spring on a hard bump and/or would distract me while riding. I didn't want to constantly be checking this so I opted for a third whole.
 
-The third hole is directly in the frame, parallel to the kickstand bung about 1" away. This was the easiest hole to drill as a Sportster's tubing is only about 1.25" thick compared to the solid kickstand holes. 
+The third hole is directly in the frame, parallel to the kickstand bung about 1" away. This was the easiest hole to drill as a Sportster's tubing is only about 1.25" thick compared to the solid kickstand holes.
 
 In the future, I'll probably have an independent shop weld a new kickstand with an internal spring onto my frame and then seal the hole I made. My solution has held up after 50+ miles in the mean time though, so I'm confident it can make it. God bless and damn blue loctite.
 
@@ -77,7 +74,7 @@ I've also had one neighbor jokingly state that he saw I got a Harley and then th
 
 +3/-1 isn't too bad in my book I suppose...
 
-### Getting hit on 
+### Getting hit on
 
 One of the truly more bizarre, but positive(?) perks though has been getting hit on by the biker mamas out there. It's happened three times now which doesn't seem like a lot, but if this trend continues, I'm getting hit on 25% of the time I ride.
 
@@ -85,15 +82,14 @@ I've never been on Tinder or any other dating app before, but if I did, I guess 
 
 ## Modifications made so far
 
-- Oil Change
-- Burly Bro Slammer Shocks
-- TC Bros king and queen seat
-- TC Bros sissy bar
-- TC Bros 3.5" lift kit
-- TC Bros Skid plate (because I'm paranoid about Northeast Ohio's roads and the ground clearance)
-- New spark plugs
-- Dice valve stem covers cause why not
-
+-   Oil Change
+-   Burly Bro Slammer Shocks
+-   TC Bros king and queen seat
+-   TC Bros sissy bar
+-   TC Bros 3.5" lift kit
+-   TC Bros Skid plate (because I'm paranoid about Northeast Ohio's roads and the ground clearance)
+-   New spark plugs
+-   Dice valve stem covers cause why not
 
 ## Future modifications
 
