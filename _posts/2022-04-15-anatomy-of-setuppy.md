@@ -27,4 +27,4 @@ In case you've never seen a `setup.py` before, it is what is used to specify the
 
 ## Example setup.py
 
-![setup.py](https://github.com/Novak478/novak478.github.io/blob/master/assets/python/example_setup.py#L1-21)
+![setup.py](https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/python/example_setup.py)
