@@ -18,7 +18,7 @@ I bought a 1998 Harley-Davidson Sportster XL883 the other day. It's everything t
 
 ## My two cents
 
-Every bike I've owned besides my previous one (a 2006 Honda Rebel) I've tried to make look like a cruiser. It was awesome on one hand because I ended up getting some really rad, unique bikes that caught eyes and were full of stories at motorcycle meet ups as well as swap meets. It was maddening because at the end at the end of the day, everything was custom. Different bolt sizes everywhere. Nothing standardized. This forced me to learn a lot, but reduced the "joy" owning a motorcycle heavily I found at the end.
+Every bike I've owned besides my previous one (a 2006 Honda Rebel) I've tried to make look like a cruiser. It was awesome on one hand because I ended up getting some really rad, unique bikes that caught eyes and were full of stories at motorcycle meet ups as well as swap meets. It was maddening because at the end of the day, everything was custom. Different bolt sizes everywhere. Nothing standardized. This forced me to learn a lot, but reduced the "joy" owning a motorcycle heavily I found.
 
 Case in point, my 1983 Honda CM450A near the end.
 

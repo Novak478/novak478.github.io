@@ -24,7 +24,7 @@ In this example, I don't want to destroy an AWS log group and want to use an exi
 4. `terraform apply --auto-approve`
 5. `terraform state list`
 6. `terraform state rm aws_cloudwatch_log_group.lambda`
-7. `terraform destroy -auto-approve`s
+7. `terraform destroy -auto-approve`
 
 ## Example main.tf
 
