@@ -10,7 +10,6 @@ author: zacknovak
 description:
 ---
 
-
 # Overview
 
 Sometimes, you don't want a resource deployed via Terraform to be destroyed. Other times, you can't destroy due to compliance reasons / you're limited by your AWS scope. In either case, you want to exclude resources from the destroy process. This isn't currently a built in feature of Terraform WHICH SUCKS. So you have to be a bit hacky. Here's how.
@@ -27,88 +26,15 @@ In this example, I don't want to destroy an AWS log group and want to use an exi
 6. `terraform state rm aws_cloudwatch_log_group.lambda`
 7. `terraform destroy -auto-approve`s
 
-
 ## Example main.tf
 
-```terraform
-provider "aws" {
-  region   = "your_region"
-  profile  = "your_aws_profile"
-}
+![main.tf](https://github.com/Novak478/novak478.github.io/blob/master/assets/terraform/example_tf_exclude_resource.tf#L1-53)
 
-module "lambda_function" {
-  source                 = "terraform-aws-modules/lambda/aws"
-  version                = ">= 3.1.1"
+## Lambda function
 
-  function_name          = "data-test-lambda"
-  description            = "My awesome lambda function"
-  handler                = "lambda_handler"
-  runtime                = "python3.8"
-  publish                = true
-  ephemeral_storage_size = null
-  source_path            = "lambda_function.py"
-  tracing_mode           = "Active"
-  store_on_s3            = true
-  s3_bucket              = "your_s3_bucket"
-  depends_on             = [aws_cloudwatch_log_group.lambda]
-  use_existing_cloudwatch_log_group = true
-
-  layers = [
-    module.lambda_layer_s3.lambda_layer_arn,
-  ]
-
-  environment_variables = {
-    myenv = "myval"
-  }
-
-  tags = {
-    Module = "mymodule"
-  }
-}
-
-module "lambda_layer_s3" {
-  source              = "terraform-aws-modules/lambda/aws"
-  version             = ">= 3.1.1"
-  create_layer        = true
-  layer_name          = "my-lambda-python-layer"
-  description         = "my python code"
-  compatible_runtimes = ["python3.8"]
-  source_path         = "lambda_function.py"
-  store_on_s3         = true
-  s3_bucket           = "your_s3_bucket"
-  depends_on          = [aws_cloudwatch_log_group.lambda]
-  use_existing_cloudwatch_log_group = true
-}
-
-resource "aws_cloudwatch_log_group" "lambda" {
-  name    = "/aws/lambda/existing-log-group"
-}
-```
-
-```python
-import logging
-import os
-
-import boto3
-import jsonpickle
-
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-
-client = boto3.client("lambda")
-client.get_account_settings()
-
-
-def lambda_handler(event, context):
-    logger.info("## ENVIRONMENT VARIABLES\r" + jsonpickle.encode(dict(**os.environ)))
-    logger.info("## EVENT\r" + jsonpickle.encode(event))
-    logger.info("## CONTEXT\r" + jsonpickle.encode(context))
-    response = client.get_account_settings()
-    return response["AccountUsage"]
-
-```
+![Lambda](https://github.com/Novak478/novak478.github.io/blob/master/assets/python/example_lambda_function.py#L1-20)
 
 ## Notes on this
 
-- GitHub issue with the recommendation: https://github.com/hashicorp/terraform/issues/23547
-- StackOverflow issue with the fix more or less: https://stackoverflow.com/questions/55265203/terraform-delete-all-resources-except-one
+-   GitHub issue with the recommendation: https://github.com/hashicorp/terraform/issues/23547
+-   StackOverflow issue with the fix more or less: https://stackoverflow.com/questions/55265203/terraform-delete-all-resources-except-one

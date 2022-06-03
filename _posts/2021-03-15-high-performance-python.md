@@ -4,19 +4,20 @@ layout: post
 date: 2021-03-15
 projects: true
 tag:
-- tech
-- programming
-- python
-- profiling
-- garbage collection
-- python_internals
-- highperformancepython
-- personaldevelopment
+    - tech
+    - programming
+    - python
+    - profiling
+    - garbage collection
+    - python_internals
+    - highperformancepython
+    - personaldevelopment
 category: project
 author: zacknovak
 description: What i've learned in the first 50 pages of High Performance Python
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
+
 I'm approximetly 1/8th of the way through [High Performance Python](https://www.amazon.com/High-Performance-Python-Performant-Programming/dp/1492055026).
 
 Someone else already converted all of the code in the book to [github](https://github.com/mynameisfiber/high_performance_python/), but warning: its in python2.7.
@@ -26,6 +27,7 @@ Someone else already converted all of the code in the book to [github](https://g
 ## Profiling tools:
 
 ### timeit
+
 timeit module: records time of whatever is run in it.
 
 ```python
@@ -63,6 +65,7 @@ p.print_callers()
 ### snakeviz
 
 snakeviz: a visualization tool that can be used to show profiling results in a graph.
+
 ```python
 # Snakeviz Example
 # pip install snakeviz
@@ -72,6 +75,7 @@ os.system("snakeviz profile.stats")
 ```
 
 ### line_profiler
+
 line_profiler: shows number of calls, total time %, and time in nanoseconds per line.
 
 ```python
@@ -87,7 +91,6 @@ os.system("kernprof -l -v line_profiler_set_2.py")
 # Broke up while statement to further analyze
 ```
 
-
 ## Tuples vs lists
 
 Tuples run 5 - 10x faster than lists because of python's garbage collection and memory allocation.
@@ -96,7 +99,7 @@ Tuples run 5 - 10x faster than lists because of python's garbage collection and 
 
 When you create a list, python actually creates that list + some more memory as it thinks you'll append to the list / modify it / etc. When you do append to that list, it first checks to see if it's there enough size left, then creates a new list with some more memory on top of it, then copies the old list to it, then does the append, and finally destroys the old list (very expensive).
 
-Python must allocate and copy the tuple every time it is appended, as opposed to only when the extra memory allocated to it expires like in lists. As a result, no in place appends exist.  Not storing the extra memory uses fewer resources. Additionally, tuples don't need to keep track about their current state leading to more speed advantages.
+Python must allocate and copy the tuple every time it is appended, as opposed to only when the extra memory allocated to it expires like in lists. As a result, no in place appends exist. Not storing the extra memory uses fewer resources. Additionally, tuples don't need to keep track about their current state leading to more speed advantages.
 
 #### Garbage collection / resource caching:
 
@@ -112,8 +115,8 @@ print(f"Creation of the list usually took {list_test} nanoseconds.")
 print(f"Creation of the tuple usually took {tuple_test} nanoseconds.")
 ```
 
-
 ### julia file
+
 ```python
 """Julia set generator without optional PIL-based image drawing"""
 """CPU BOUND PROBLEM"""
