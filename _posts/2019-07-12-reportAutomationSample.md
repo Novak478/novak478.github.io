@@ -38,7 +38,9 @@ This 🔥bad🔥 boy is called by a cron job every day. When called, the script 
 
 ## Script
 
-## ![report_automation](https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/shellscripts/report_automation.bash)
+https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/shellscripts/report_automation.bash
+
+### Links
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm

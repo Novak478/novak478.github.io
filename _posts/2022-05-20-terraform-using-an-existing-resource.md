@@ -28,11 +28,11 @@ In this example, I don't want to destroy an AWS log group and want to use an exi
 
 ## Example main.tf
 
-![main.tf](https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/terraform/example_tf_exclude_resource.tf)
+https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/terraform/example_tf_exclude_resource.tf
 
 ## Lambda function
 
-![Lambda](https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/python/example_lambda_function.py)
+https://github.com/Novak478/novak478.github.io/blob/b1be658bfa6802d3ae734d4ac9fe35f9d99ac4cb/assets/python/example_lambda_function.py
 
 ## Notes on this
 

@@ -45,7 +45,7 @@ I created this project to introduce Python to students in the University of Akro
 
 ## Code
 
-![twitterbot](https://github.com/Novak478/novak478.github.io/blob/master/assets/python/twitterbot.py#L1-89)
+https://github.com/Novak478/novak478.github.io/blob/master/assets/python/twitterbot.py#L1-89
 
 ## Credentials.py
 
