@@ -12,6 +12,77 @@ author: zacknovak
 description: I interviewed with Ring as a Data Engineer. Here is what the Ring team said might be questions, what they actually asked, and my answers (or in some cases, "I don't know that" lol)
 ---
 
+# TOC
+
+-   [Potential Questions](#potential-questions)
+    -   [Leadership Principle Questions](#leadership-principle-questions)
+        -   [General questions](#general-questions)
+            -   [What is Big O notation](#what-is-big-o-notation)
+            -   [Data Lake](#data-lake)
+            -   [Design patterns](#design-patterns)
+                -   [Singleton](#singleton)
+                -   [Factory](#factory)
+                -   [Bridge](#bridge)
+                -   [Visitor](#visitor)
+                -   [Command](#command)
+                -   [Proxy](#proxy)
+                -   [Observer](#observer)
+                -   [Adapter](#adapter)
+    -   [OS questions](#os-questions)
+        -   [Processes and threads](#processes-and-threads)
+        -   [synchronization](#synchronization)
+        -   [paging](#paging)
+        -   [multithreading](#multithreading)
+    -   [Data Structures:](#data-structures-)
+        -   [Array](#array)
+            -   [Linked List](#linked-list)
+            -   [Heap](#heap)
+            -   [Hash Table](#hash-table)
+            -   [Stack](#stack)
+            -   [Queue](#queue)
+            -   [Trie](#trie)
+    -   [Algorithms](#algorithms)
+        -   [Sorting](#sorting)
+            -   [Bubble Sort](#bubble-sort)
+            -   [Merge Sort](#merge-sort)
+            -   [Quick Sort](#quick-sort)
+            -   [Radix/Bucket Sort](#radix-bucket-sort)
+        -   [Traversals](#traversals)
+            -   [Depth First Search](#depth-first-search)
+            -   [Breadth First Search](#breadth-first-search)
+            -   [Recursion](#recursion)
+        -   [Search](#search)
+            -   [Sequential Search (ex: Linear)](#sequential-search--ex--linear-)
+            -   [Interval Search (ex: Binary)](#interval-search--ex--binary-)
+                -   [Jump Search](#jump-search)
+                -   [Interpolation](#interpolation)
+        -   [Kafka](#kafka)
+            -   [What is Apache Kafka](#what-is-apache-kafka)
+        -   [Producers](#producers)
+        -   [Events](#events)
+    -   [Topics](#topics)
+        -   [Consumers](#consumers)
+        -   [Partitions](#partitions)
+        -   [Replication](#replication)
+            -   [Reading data from topic (consumer)](#reading-data-from-topic--consumer-)
+                -   [Using Json](#using-json)
+            -   [Publishing to topic (Producer)](#publishing-to-topic--producer-)
+-   [Actual questions asked](#actual-questions-asked)
+    -   [Kafka](#kafka-1)
+        -   [What is Kafka from a high level](#what-is-kafka-from-a-high-level)
+        -   [If I have 30 brokers, 3 partitions, and 30 consumers what is the blocker and why are only 3 consumers being used?](#if-i-have-30-brokers--3-partitions--and-30-consumers-what-is-the-blocker-and-why-are-only-3-consumers-being-used-)
+    -   [Live coding](#live-coding)
+        -   [Switch vowels in a string](#switch-vowels-in-a-string)
+            -   [My solution](#my-solution)
+                -   [Follow up questions based on my solution](#follow-up-questions-based-on-my-solution)
+                    -   [Why would string[index] = i a bad practice](#why-would-string-index----i-a-bad-practice)
+                    -   [What is the Big O Notation of `if in in vowels`](#what-is-the-big-o-notation-of--if-in-in-vowels-)
+                    -   [What is a potential side effect of using the string.replace function?](#what-is-a-potential-side-effect-of-using-the-stringreplace-function-)
+                    -   [What could I do to increase the speed of the search](#what-could-i-do-to-increase-the-speed-of-the-search)
+            -   [His solution](#his-solution)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Potential Questions
 
 ## Leadership Principle Questions
@@ -1030,23 +1101,6 @@ def main():
 
 
 # TODO: Implement this
-def swap_vowels(string):
-    # only swap vowels
-    vowels = ["a", "e", "o", "i", "y"]
-
-    # iterating through string, letter by lettesr
-    for i in vowels:
-        # checking to see if letter is a vowel
-        temp_vowel = "a"
-        # fao = foa
-        if i in vowels:
-            # save vowel
-            string.replace(i, temp_vowel)
-            # loop through rest of letters and check if other vowels
-            temp_vowel = i
-
-    return string
-
 def swap_vowels(string):
     head = 0
     tail = len(string) - 1
