@@ -8,8 +8,10 @@ layout: page
 # About Me
 
 -   👋 Hi, I’m Zack Novak!
--   🔭 I’m currently working on data engineering startup things at Second Front Systems, a public benefit, venture-backed software company in the national defense space.
+-   I'm currently working on the data engineering team at CardinalCommerce, a wholly owned subsidiary of Visa Inc. 
+-   🔭 In the past, I worked as the sole data engineer at Second Front Systems, a public benefit, venture-backed software company in the national defense space as well as at Progressive Insurance where I worked on their Machine Learning team that developed a ML model frameworked used throughout the organization.
 -   👀 I’m interested in all things DevOps and Data Engineering! I'm actively looking to learn more about Istio, Advanced Python, Go and Kubernetes.
+- This was last updated on Nov. 17 2023.
 
 ## Programming Skills
 
@@ -39,4 +41,4 @@ I currently only have my Certified Associate Developer for Apache Spark 2.4 with
 
 ## Hobbies
 
-In my spare time, I like to read, work on personal projects like this website, cook with but primarily for my girlfriend, work/ride on my motorcycles, and generally have a good time.
+In my spare time, I like to read, work on personal projects like this website, cook with but primarily for my wife, work/ride on my motorcycle, and generally have a good time.
